@@ -37,3 +37,11 @@ img {
 .list {
     list-style-type: none;
 }
+#optionSelect {
+  margin-top: 20px;
+  padding: 6px 10px;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  background-color: #fff;
+}
