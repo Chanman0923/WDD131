@@ -58,3 +58,21 @@ img {
     width: 150px;
     margin: 40px auto 0;
 }
+.mode-selector {
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+
+body.dark-mode {
+    background-color: #222;
+    color: #eee;
+}
+
+body.dark-mode .card {
+    border-color: #444;
+}
+
+body.dark-mode h2 {
+    color: #6cb6f0;
+    border-bottom-color: #444;
+}
