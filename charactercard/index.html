@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Character Card</title>
+  <meta name="description" content="An interactive character card. Attack the character or level them up.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Character Card">
+  <meta property="og:description" content="An interactive character card. Attack the character or level them up.">
+  <meta property="og:url" content="https://chanman0923.github.io/WDD131/charactercard/">
+  <meta property="og:image" content="https://chanman0923.github.io/WDD131/charactercard/images/social-preview.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Character Card">
+  <meta name="twitter:description" content="An interactive character card. Attack the character or level them up.">
+  <meta name="twitter:image" content="https://chanman0923.github.io/WDD131/charactercard/images/social-preview.png">
+
+  <!-- Icons -->
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <img id="image" class="image" src="images/swamp-beast.png" alt="Swamp Beast Diplomat">
+    <h1 id="name" class="name"></h1>
+    <div class="stats">
+      <p>Class: <span id="class"></span></p>
+      <p>Level: <span id="level"></span></p>
+      <p>Health: <span id="health"></span></p>
+    </div>
+    <div class="buttons">
+      <button id="attacked">Attacked</button>
+      <button id="levelUp">Level Up</button>
+    </div>
+  </main>
+</body>
+</html>
